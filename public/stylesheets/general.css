@@ -1,0 +1,83 @@
+body {
+	margin:0;
+	padding:0;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.5em;
+}
+
+#header {
+	background: #BDBDBD;
+	height: 100px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#header h1 {
+	margin: 0;
+	padding-top: 20px;
+	left: 10px;
+	margin-bottom: -10px;
+	color: #7B1FA2;
+}
+
+#header h2{
+	color: #7B1FA2;
+}
+
+#logo{
+	height: 80px;
+	float: left;
+	margin-top: 10px; 
+	margin-right: 20px;
+}
+
+main {
+	padding-bottom: 10010px;
+	margin-bottom: -10000px;
+	float: left;
+	width: 100%;
+}
+
+#nav {
+	padding-bottom: 10010px;
+	margin-bottom: -10000px;
+	float: left;
+	width: 200px;
+	margin-left: -100%;
+	background: #eee;
+}
+
+#footer {
+	clear: left;
+	width: 100%;
+	background: #ccc;
+	text-align: center;
+	padding: 4px 0;
+}
+
+#wrapper {
+	overflow: hidden;
+}
+			
+#content {
+	margin-left: 230px; /* Same as 'nav' width */
+}
+
+.innertube {
+	margin: 15px; /* Padding for content */
+	margin-top: 0;
+}
+
+p {
+	color: #555;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul a {
+	color: darkgreen;
+	text-decoration: none;
+}
